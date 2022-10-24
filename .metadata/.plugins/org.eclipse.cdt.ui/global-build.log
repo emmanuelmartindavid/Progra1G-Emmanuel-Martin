@@ -1,0 +1,177 @@
+Info: Nothing to build for primer-Parcial-Progra-1G
+18:56:45 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+18:58:50 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+18:59:03 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:00:23 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:01:12 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:01:40 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:03:39 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:04:45 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:05:38 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:06:38 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:09:10 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:13:55 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:15:54 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:24:46 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+..\src\primer-Parcial-Progra-1G.c: In function 'main':
+..\src\primer-Parcial-Progra-1G.c:54:13: warning: implicit declaration of function 'contarCaracteres' [-Wimplicit-function-declaration]
+   54 |  contador = contarCaracteres(caracteres, primerCaracter,segundoCaracter);
+      |             ^~~~~~~~~~~~~~~~
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\primer-Parcial-Progra-1G.o: in function `main':
+C:\Users\cuerpos\OneDrive\Desktop\Progra1G-Emmanuel-Martin\primer-Parcial-Progra-1G\Debug/../src/primer-Parcial-Progra-1G.c:54: undefined reference to `contarCaracteres'
+collect2.exe: error: ld returned 1 exit status
+19:25:02 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:25:19 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:25:42 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:25:55 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:26:47 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:39:51 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+..\src\primer-Parcial-Progra-1G.c: In function 'ordenaArrayNotebook':
+..\src\primer-Parcial-Progra-1G.c:132:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  132 |       && array[i].efectividad, array[j].efectividad)) {
+      |                              ^
+..\src\primer-Parcial-Progra-1G.c:139:20: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int' [-Wformat=]
+  139 |      printf("TIPO %s\n"
+      |                   ~^
+      |                    |
+      |                    char *
+      |                   %d
+  140 |        "EFECTIVIDAD %.2f", array[i].tipo, array[i].efectividad);
+      |                            ~~~~~~~~~~~~~
+      |                                    |
+      |                                    int
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:40:00 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+..\src\primer-Parcial-Progra-1G.c: In function 'ordenaArrayNotebook':
+..\src\primer-Parcial-Progra-1G.c:132:30: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  132 |       && array[i].efectividad, array[j].efectividad)) {
+      |                              ^
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:40:07 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:42:20 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+..\src\primer-Parcial-Progra-1G.c: In function 'main':
+..\src\primer-Parcial-Progra-1G.c:75:16: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   75 |    { 10, "i3", "k", 200 },
+      |                ^~~
+..\src\primer-Parcial-Progra-1G.c:75:16: note: (near initialization for 'arrayVacunas[9].tipo')
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:42:35 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:43:35 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+19:45:09 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:45:28 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:46:38 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:47:02 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:47:38 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:48:03 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:48:10 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G
+19:48:45 **** Incremental Build of configuration Debug for project primer-Parcial-Progra-1G ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\primer-Parcial-Progra-1G.o" "..\\src\\primer-Parcial-Progra-1G.c" 
+gcc -o primer-Parcial-Progra-1G.exe "src\\primer-Parcial-Progra-1G.o" 
+Info: Nothing to build for primer-Parcial-Progra-1G

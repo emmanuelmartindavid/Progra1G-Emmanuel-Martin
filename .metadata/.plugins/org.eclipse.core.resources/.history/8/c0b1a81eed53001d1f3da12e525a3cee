@@ -1,0 +1,150 @@
+/*
+ ============================================================================
+ Name        : progra.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+
+ Crear una función que se llame reemplazarCaracteres que reciba una cadena de
+ caracteres como primer parámetro, un carácter como segundo y otro carácter  como tercero,
+ la misma deberá reemplazar cada ocurrencia del segundo parámetro por el tercero
+ y devolver la cantidad de veces que se reemplazo ese carácter  en la cadena
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct {
+
+	int id;
+	char nombre[10];
+	char tipo;
+	float efectividad;
+
+} eVacuna;
+float aplicarAumento(float precioProducto);
+
+int reemplazarCaracteres(char arrayCaracteres[], char primerCaracter,
+		char segundoCaracter);
+
+int ordenaArrayNotebook(eVacuna array[], int len);
+
+int main(void) {
+
+	setbuf(stdout, NULL);
+
+	//PRIMER EJERCICIO
+	float precioProducto = 10;
+	float totalPrecio;
+
+	totalPrecio = aplicarAumento(precioProducto);
+
+	if (totalPrecio == -1) {
+		printf("ERROR");
+	} else {
+		printf("PRECIO CON AUMENTO: %.2f", totalPrecio);
+	}
+
+	//SEGUNDO EJERCICIO
+	char caracteres[6] = { "ANANA" };
+	char primerCaracter = 'A';
+	char segundoCaracter = 'X';
+
+	int contador;
+	contador = reemplazarCaracteres(caracteres, primerCaracter,
+			segundoCaracter);
+
+	printf("\n PALABRA %s\n"
+			"CANTIDAD CARACTERES: %d\n", caracteres, contador);
+
+	//TERCER EJERCICIO
+	eVacuna arrayVacunas[10] = {
+
+			{ 1, "vacuna1", 'a', 500 },
+			{ 2, "vacuna2", 'b', 300, },
+			{ 3, "vacuna3", 'c', 600 },
+			{ 4, "vacuna4", 'd', 400 },
+			{ 5, "vacuna5", 'e', 200 },
+			{ 6, "vacuna6", 'f', 500 },
+			{ 7, "vacuna7", 'g', 300, },
+			{ 8, "vacuna8", 'h', 600 },
+			{ 9, "vacuna9", 'i', 400 },
+
+	//{ 10, "i3", "DELL", 200 },
+
+			};
+
+	ordenaArrayNotebook(arrayVacunas, 10);
+
+	return EXIT_SUCCESS;
+}
+
+float aplicarAumento(float precioProducto) {
+
+	float resultado;
+	if (precioProducto > 0) {
+
+		resultado = precioProducto + (0.5 * precioProducto) / 100;
+
+	} else {
+		resultado = -1;
+	}
+	return resultado;
+}
+
+int reemplazarCaracteres(char arrayCaracteres[], char primerCaracter,
+		char segundoCaracter) {
+
+	int i = 0;
+	int contadorCaracteres = 0;
+	int largo;
+	if (arrayCaracteres != NULL) {
+		largo = strlen(arrayCaracteres);
+		for (i = 0; i < largo; i++) {
+
+			if (arrayCaracteres[i] == primerCaracter) {
+
+				arrayCaracteres[i] = segundoCaracter;
+
+				contadorCaracteres++;
+			}
+
+		}
+	}
+
+	return contadorCaracteres;
+}
+
+int ordenaArrayNotebook(eVacuna array[], int len) {
+
+	int rtn = -1;
+	eVacuna aux;
+
+	if (array != NULL && len > 0) {
+		for (int i = 0; i < len - 1; i++) {
+			for (int j = i + 1; j < len; j++) {
+
+				if (array[i].tipo > array[j].tipo
+						|| 	( array[i].tipo == array[j].tipo
+						&& array[i].efectividad> array[j].efectividad)) {
+
+					aux = array[i];
+					array[i] = array[j];
+					array[j] = aux;
+					rtn = 0;
+
+					printf("TIPO %c\n"
+							"EFECTIVIDAD %.2f", array[i].tipo, array[i].efectividad);
+
+				}
+
+			}
+		}
+
+	}
+
+	return rtn;
+}

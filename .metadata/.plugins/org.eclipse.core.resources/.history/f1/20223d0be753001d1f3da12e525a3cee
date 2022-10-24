@@ -1,0 +1,125 @@
+/*
+ ============================================================================
+ Name        : progra.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+typedef struct {
+
+	int id;
+	char procesador[10];
+	char marca[10];
+	float precio;
+
+
+} Notebook;
+float aplicarDescuento(float precioProducto);
+int contarCaracteres(char arrayCaracteres[], char caracter);
+int ordenaArrayNotebook(Notebook array[], int len);
+
+int main(void) {
+
+	setbuf(stdout, NULL);
+	Notebook array[5] = { { 1, "i7", "intel", 500 },
+			{ 2, "i5", "intel", 300,},
+			{ 3, "ryzen3000", "amd", 600 },
+			{ 4, "ryzen5000", "amd",400 },
+			{ 5, "i3", "intel", 200 },
+
+	};
+
+	if (ordenaArrayNotebook(array, 5) == 0) {
+
+		for (int i; i < 5; i++) {
+
+			printf("ORDENAMIENTO. \n MARCA: %s, PRECIO %.2f", array[i].marca,
+					array[i].precio);
+
+		}
+	}
+
+//	char caracteres[10]={'a','b','c','b','d','e','f','b','d','f'};
+//	char caracter='b';
+//	int contador;
+//	contador=contarCaracteres(caracteres, caracter);
+//
+//
+//
+//
+//printf("CANTIDAD CARACTERES %d", contador);
+//
+
+//	float precioProducto=10;
+//	float totalPrecio;
+//
+//	totalPrecio=aplicarDescuento(precioProducto);
+//	if ( totalPrecio==-1){
+//		printf("ERROR");
+//	}else{
+//	printf("PRECIO CON DESCUENTO %.2f", totalPrecio);
+//	}
+	return EXIT_SUCCESS;
+}
+
+float aplicarDescuento(float precioProducto) {
+
+	float resultado;
+	if (precioProducto > 0) {
+		resultado = precioProducto - (0.5 * precioProducto) / 100;
+	} else {
+		resultado = -1;
+	}
+	return resultado;
+}
+
+int contarCaracteres(char arrayCaracteres[], char caracter) {
+
+	int i = 0;
+	int contadorCaracteres = 0;
+	int largo = strlen(arrayCaracteres);
+	while (i < largo) {
+
+		if (arrayCaracteres[i] == caracter) {
+
+			contadorCaracteres++;
+		}
+
+		i++;
+	}
+
+	return contadorCaracteres;
+}
+
+int ordenaArrayNotebook(Notebook array[], int len) {
+
+	int rtn = -1;
+	Notebook aux;
+
+	if (array != NULL && len > 0) {
+		for (int i = 0; i < len - 1; i++) {
+			for (int j = i + 1; j < len; j++) {
+
+				if ((strcmp(array[i].marca, array[j].marca) == 0
+						&& array[i].precio < array[j].precio)
+						|| ((strcmp(array[i].marca, array[j].marca) < 0))) {
+					aux = array[i];
+					array[i] = array[j];
+					array[j] = aux;
+				}
+				rtn = 0;
+
+			}
+		}
+
+	}
+
+	return rtn;
+}
